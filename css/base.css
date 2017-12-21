@@ -1,0 +1,68 @@
+/*网页基本样式*/
+a, b,  body,  dd, del, div, dl, dt, em,  h1, h2, h3, h4, h5, h6, html, i,  li, ol, p, s, span, strong, u, ul  {
+    margin: 0;
+    padding: 0;
+}
+
+ul,ol {
+	list-style: none;
+}
+img {
+	display: block;
+	border: 0 none;
+}
+a {
+    color: #424242;
+    text-decoration: none
+}
+
+a:hover {    /*鼠标经过*/
+    color: #FF6709;
+}
+em {
+	font-style: normal;
+}
+
+.w  {      /*    版心居中*/
+	margin: 0 auto;
+	width: 1227px;
+}
+
+.fl {
+    float: left
+}
+
+
+.fr {
+    float: right
+}
+
+h5 {
+	font-size: 100%;
+    font-weight: 400
+}
+i,em  {
+	font-style: normal;
+}
+input {
+	outline: none;
+}
+
+body {			/*默认字体大小*/
+	font-size: 14px;
+	font-family: "Microsoft YaHei";
+	color: #333333;
+	background-color: #EDEDED;
+
+}
+
+.clearfix:after,.clearfix:before {
+	content: "." ;
+	display: block;
+	clear: both;
+	height: 0;
+	visibility: hidden;
+
+}
+
+

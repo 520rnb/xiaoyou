@@ -1,0 +1,237 @@
+/*登录界面的css*/
+
+* {
+	margin: 0 ;
+	padding:0;
+}
+.clearfix:after,.clearfix:before {
+	content: ".";
+	display: block;
+	clear: both;
+	height: 0;
+	overflow: hidden;
+
+}
+
+body {
+	height: 100%;
+	background: url(../images/bj2x.png);
+}
+
+
+.box {
+	width: 450px;
+	height: 550px;
+    border: 1px solid #dadada;
+    border-radius: 10px;
+    position: absolute;
+    margin-left: -225px;
+    margin-top: 100px;
+    left: 50%;
+    box-shadow: 5px 8px 30px #ccc;
+    border: 1px solid #e0e0e0;
+    background: url(../images/xx.png) #fff bottom repeat-x;
+
+}
+.boxs {
+	width: 436px;
+	height: 167px;
+	background: url(../images/logo.png) no-repeat;
+	background-size: 110px;
+	height: 92px;
+    margin: 23px 0 50px;
+    padding: 75px 0 0;
+    background-position: top center;
+
+}
+.boxs h4 {
+	color: #333;
+	text-align: center;
+	margin-top: 50px;
+	font-weight: 400;
+	font-size: 20px;
+
+}
+
+
+.etry-t {
+	width: 310px;
+	height: 38px;
+	margin-top: 15px;
+	position: relative;
+	margin-left: -185px;
+	left: 50%;
+	border:1px solid #ccc;
+	border-radius: 5px;
+	padding: 5px 0 5px 60px;
+
+}
+.etry {
+	position: relative;
+}
+.etry label { 
+	width: 48px;
+	height: 48.5px;
+	border-right: 1px solid #ccc;
+	border-radius: 5px 0 0 5px;
+	display: block;
+	position: absolute;
+	left: 41px;
+	z-index: 2;
+	top: 16px;
+	opacity: 0.5;
+
+
+
+}
+.etry-s:hover .etry-l {
+	opacity: 1;
+
+}
+.etry .etry-l {
+	background: url(../images/dl2.png) no-repeat ;
+
+}
+
+.etry .etry-r {
+	background: url(../images/dl2.png) no-repeat -48px 0;
+
+}
+.check {
+	position: relative;
+	width: 370px;
+	height: 28px;
+	margin: 0 auto;
+	padding-top: 20px;
+}
+.check a {
+	font-size: 12px;
+
+}
+.check-l a {
+	color: #999;
+}
+
+.check-r a {
+	color: #406dd6;
+}
+
+.check-r a:hover {
+	color: #406dd6;
+}
+
+
+.check-l a:hover {
+	color: #999;
+}
+
+.checkbox {
+	width: 20px;
+	height: 20px;
+	background: url(../images/cbx.png) no-repeat 0 -20px;
+	border-radius: 50%;
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: 5px;
+}
+
+.check-l {
+	float: left;
+
+}
+.check-r {
+	float: right;
+}
+.check-r .tr {
+	border-right: 1px solid #ccc;
+	padding-right: 10px;
+}
+.check-r .td {
+	padding-left: 10px;
+}
+.login {
+	margin: 15px 0;
+}
+.login a {
+	width: 370px;
+	height: 48px;
+	display: block;
+	background-color: #98b7f8;
+	border-radius: 10px;
+	line-height: 48px;
+	font-size: 18px;
+	color: #fff;
+	text-align: center;
+	box-shadow: inset 0 1px 2px #7ea1e8;
+	margin: 0 auto;
+	border:1px solid #e0e0e0;
+
+}
+.login a:hover {
+	color: #fff;
+	background-color: #5a82d5;
+}
+
+.othe {
+	width: 370px;
+	height: 48px;
+	margin: 0 auto;
+	border-top: 1px solid #e0e0e0;
+	line-height: 48px;
+}
+
+.othe .text {
+	font-size: 12px;
+	color: #999;
+	float: left;
+	cursor: default;
+
+}
+.weix {
+	width: 20px;
+	height: 17px;
+	background: url(../images/qt.png);
+	float: left;
+	margin-top: 19px;
+	margin-left: 12px;
+	cursor: pointer;
+}
+.weix:hover {
+	width: 20px;
+	height: 17px;
+	background: url(../images/qt2.png);
+
+}
+.weibo {
+	width: 20px;
+	height: 17px;
+	background: url(../images/qt.png) -30px;
+	float: left;
+	margin-top: 19px;
+	margin-left: 12px;
+	cursor: pointer;
+}
+.weibo:hover {
+	width: 20px;
+	height: 17px;
+	background: url(../images/qt2.png) -30px;
+}
+.qq {
+	width: 20px;
+	height: 17px;
+	background: url(../images/qt.png) -60px;
+	float: left;
+	margin-top: 19px;
+	margin-left: 12px;
+	cursor: pointer;
+}
+.qq:hover {
+	width: 20px;
+	height: 17px;
+	background: url(../images/qt2.png) -60px;
+}
+.othe a {
+	color: #999;
+    font-size: 12px;
+    float: right;
+}

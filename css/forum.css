@@ -1,0 +1,130 @@
+/*三级界面论坛开始*/
+
+
+.browser {
+	margin-top: 30px
+}
+
+.browser-ranking {
+	height: 60px;
+	border-top: 1px solid #d3d3d3;
+
+	
+}
+.browser-ranking li {
+	float: left;
+	margin: 0 15px;
+	margin-top: 30px;
+    width: 2px;
+    height: 2px;
+    background-color:#999;
+
+	
+
+}
+
+.browser-ranking a {
+	height: 60px;
+	line-height: 60px;
+	display: block;
+	float: left;
+
+	font-size: 12px;
+    color: #999;
+}
+.browser-ranking i {
+	float: left;
+	width: 5px;
+}
+
+.browser-ranking a:hover{
+	color: #ff6700;
+}
+.list > ul {
+	border-right: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+	width: 1224px;
+	border-radius: 5px;
+}
+.lists:nth-child(1) {
+	border-radius: 5px 0 0 0; 
+}
+.lists:nth-child(4) {
+	border-radius: 0 5px 0 0; 
+}
+.lists:nth-child(9) {
+	border-radius: 0 0 0 5px; 
+}
+.lists:nth-child(12) {
+	border-radius: 0 0 5px 0; 
+}
+.list img {
+	margin: 30px  50px;
+}
+.list h6 {
+	font-size: 16px;
+	text-align: center;
+	font-weight: 400;
+	color: #666;
+}
+.lists {
+	width: 305px;
+	height: 429px;
+	background-color: #fff;
+	font-size: 12px;
+	color: #d0d0d0;
+	text-align: center;
+	border-top: 1px solid #ccc;
+	border-left: 1px solid #ccc;
+	float: left;
+	cursor: pointer;
+}
+.lists:hover {
+	box-shadow: 0 0 38px rgba(0,0,0,.08) inset;
+}
+.list .dtr li{
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	border:1px solid #e5e5e5;
+	text-align: center;
+	line-height: 14px;
+	padding: 2px;
+	position: absolute;
+	
+}
+.list .dtr li:nth-child(2) {
+	left: 139px;
+}
+.list .dtr li:nth-child(3) {
+	left: 162px;
+}
+.list .dtr ul {
+	padding-left: 116px;
+	height: 20px;
+	position: relative;
+	margin-top: 10px;
+}
+.list .dtr a {
+	display: block;
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	background-color: #ccc;
+
+}
+.list .dtr li:hover {
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	border:2px solid #e5e5e5;
+}
+
+.money {
+	text-align: center;
+	margin-top: 16px;
+}
+.money a {
+	font: 700 28px/28px "microsoft Yahei";
+	color: #d44d44;
+}
